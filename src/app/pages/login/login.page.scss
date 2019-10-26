@@ -1,0 +1,69 @@
+.container{
+    position: 100;
+    left: 0;
+    right: 0;
+    width: 85;
+    margin: 0 auto;
+    z-index: 2;
+    
+    &.top {
+        top:5%;
+    }
+    
+    &.botton {
+        bottom: 30;
+        span{
+            left :0;
+            right: 0;
+            widows: 70;
+            color: #fff;
+        }
+    }
+
+}
+
+
+ion-slides {
+    height:100;
+
+    .slide-inner {
+        width: 100;
+        color: #fff;
+        background-color: rgb(4, 4, 167);
+        border-radius: 10px;
+
+        ion-item{
+            --background: rgba(255,255,255,0.2 );
+            --border-radius: 10px;
+
+            ion-input{
+                --color: #fff;
+
+            }
+        }
+    }
+}
+
+.ocean {
+    position: absolute;
+    left: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 45;
+    background: blue;
+
+        .waves {
+            position:  absolute;
+            top: -100px;
+            left: 0;
+            right: 0;
+            height: 130px;
+            background-image: url ('/assests/img/fundo.png');
+            background-size: contain;
+            transition: all 0,5s;
+        }
+
+      
+
+}
